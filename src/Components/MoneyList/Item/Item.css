@@ -1,0 +1,32 @@
+.item {
+	display:inline-block;
+	width:100%;
+	max-width:100%;
+	background: #aaaacc;
+	border-radius:1rem;
+	margin-top:0.3rem;
+	padding-top:2rem;
+	padding-bottom:2rem;
+    transition: all 0.3s ease;
+	position:relative;
+	text-align:center;
+}
+
+.item_info{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.item_info .value{
+}
+.item_info .diff.plus{
+	color:green;
+}
+.item_info .diff.minus{
+	color:darkred;
+}
+
+.item:hover{
+	transform: scale(1.02);
+	background: #cacafa;
+}

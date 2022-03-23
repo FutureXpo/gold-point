@@ -1,0 +1,27 @@
+.App {
+	min-height: 100vh;
+	background-color: #eeeeff;
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	font-size: calc(1rem + 1.2vmin);
+}
+.body {
+	padding-top:7.5rem;
+	border-radius: 2rem;
+	min-height: 30rem;
+	width: 40rem;
+	position:relative;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	color: #282c34;
+}
+
+@media screen and (max-width: 700px) {
+	.body {
+		width: 95%;
+		padding-top:5.5rem;
+	}
+}

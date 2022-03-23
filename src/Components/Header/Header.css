@@ -1,0 +1,41 @@
+.header{
+	width:100%;
+	display:flex;
+	justify-content:center;
+}
+.header_box {
+	margin-top:1rem;
+	position: fixed;
+	top: 0;
+	z-index:10;
+	width: 41rem;
+}
+.header .under_titles {
+	top: 0;
+	position: fixed;
+	width: 100%;
+	height:4rem;
+	z-index:9;
+	background-color: #eeeeff;
+}
+.header_box .titles {
+	display: flex;
+	gap: 1rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 0.5rem;
+	background-color: #8899dd;
+	width:100%;
+}
+
+@media screen and (max-width: 700px) {
+	.header_box {
+		margin-top:0rem;
+		width: 100%;
+	}
+	.header_box .titles {
+	border-radius: 0rem;
+		
+	}
+}
