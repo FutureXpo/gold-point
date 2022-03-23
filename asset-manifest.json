@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gold-point/static/css/main.55531d07.css",
+    "main.js": "/gold-point/static/js/main.1ee9530b.js",
+    "index.html": "/gold-point/index.html",
+    "main.55531d07.css.map": "/gold-point/static/css/main.55531d07.css.map",
+    "main.1ee9530b.js.map": "/gold-point/static/js/main.1ee9530b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55531d07.css",
+    "static/js/main.1ee9530b.js"
+  ]
+}
